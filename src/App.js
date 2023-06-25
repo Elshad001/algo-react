@@ -18,7 +18,7 @@ function App() {
   const [sidebar,setSidebar] = useState(false)
 
   return (
-    <div className='w-full overflow-hidden'>
+    <div className='w-full'>
       <Router>
         <ScrollToTop/>
         {sidebar ? <Sidebar sidebar={sidebar} setSidebar={setSidebar} /> : <Header sidebar={sidebar} setSidebar={setSidebar}/>}

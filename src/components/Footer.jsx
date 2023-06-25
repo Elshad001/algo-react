@@ -7,7 +7,7 @@ import { MdLocationOn } from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <div className=' w-full h-72 lg:h-72 bg-zinc-800'>
+    <div className=' w-full h-72 lg:h-80 bg-zinc-800'>
       <div className='flex'>
         <div className='w-1/3 pl-5 pt-20  md:w-2/5 lg:w-51 md:px-20 md:py-14  lg:px-24 lg:py-14'>
           <img className='w-14 h-14 md:w-20 md:h-20 ml-12' src={logo} alt='' />
